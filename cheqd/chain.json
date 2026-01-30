@@ -227,7 +227,7 @@
         "provider": "Kleomedes"
       },
       {
-        "address": "https://cheqd.srvs.vnodesv.net/rest",
+        "address": "https://api.cheqd.srvs.vnodesv.net",
         "provider": "vNodes[V] Ser[V]ices"
       },
       {
@@ -279,12 +279,6 @@
     ]
   },
   "explorers": [
-    {
-      "kind": "Chainroot",
-      "url": "https://explorer.chainroot.io/cheqd",
-      "tx_page": "https://explorer.chainroot.io/cheqd/transactions/${txHash}",
-      "account_page": "https://explorer.chainroot.io/cheqd/accounts/${accountAddress}"
-    },
     {
       "kind": "bigdipper",
       "url": "https://explorer.cheqd.io",
